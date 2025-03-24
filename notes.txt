@@ -1,0 +1,5 @@
+docker build -t kubernetes-test-app:latest . -> builds a docker image 
+
+docker images -> shows the image's 
+
+docker run -p 5000:5000 kubernetes-test-app:latest - > runs the docker image which is working as a container. 
